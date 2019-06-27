@@ -1,0 +1,245 @@
+<html>
+
+<head>
+    <title>
+        NOVA ZELÂNDIA
+    </title>
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+        $("document").ready(function ($) {
+            var country = $('#country');
+            var nav = $('nav')
+            var logo = $('#logo');
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 350) {
+                    country.addClass("invisible");
+                } else {
+                    country.removeClass("invisible");
+                }
+            });
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 500) {
+                    nav.addClass("navigation");
+                    logo.addClass("logonavigation");
+                    logo.removeClass("logonavigation1");
+                } else {
+                    nav.removeClass("navigation");
+                    logo.removeClass("logonavigation");
+                    logo.addClass("logonavigation1");
+                }
+            });
+        });
+    </script>
+</head>
+
+<header>
+    <h1 id="country" style="font-size: 220px;">NOVA ZELÂNDIA</h1>
+    <img src="../img/mountain.png" id="mountain">
+    <nav>
+        <a href="../index.html"><img src="../img/logo.svg" class="logonavigation1" id="logo"></a>
+        <ul>
+            <li><a href="#natural-aspects">ASPECTOS NATURAIS</a></li>
+            <li><a href="#demography">DEMOGRAFIA</a></li>
+            <li><a href="#history">HISTORIA</a></li>
+            <li><a href="#politics">POLITICA</a></li>
+            <li><a href="#economy">ECONOMIA</a></li>
+        </ul>
+    </nav>
+</header>
+
+<body>
+    <section id="main">
+        <section id="natural-aspects">
+            <h1>ASPECTOS NATURAIS</h1>
+            <div class="text">
+                <p class="title">Clima e vegetação:</p>
+                <p class="paragraphy">
+                    O clima da Nova Zelândia é não varia muito e se deve principalmente pela presença
+                    de grandes montanhas no seu território e por ser composto por duas ilhas, tendo
+                    direta relação com o Oceano Pacífico ao leste e o Mar da Tasmânia ao oeste.
+                    O clima neozelandês é predominantemente temperado, com a presença de clima
+                    subtropical no norte do país e clima de montanha nos topos das montanhas.
+                    As temperaturas médias anuais são amenas, com verões quentes e amenos e
+                    invernos mais frios, sendo o sul do país mais frio que o norte, devido a posição
+                    geográfica no hemisfério sul. No inverno, as regiões montanhosas podem chegar
+                    até -10°C.
+                </p>
+                <p class="title">Relevo:</p>
+                <p class="paragraphy">
+                    A Nova Zelândia é um país dividido entre a Ilha Sul e a Ilha Norte, ou seja, para
+                    estes, o relevo acaba se diferenciando. Na Ilha Sul, tem a presença em sua maioria
+                    de um relevo montanhoso, contendo enormes fiordes, devido ao processo de
+                    descongelamento de geleiras após a última Era do Gelo, no qual as placas de gelo
+                    se deslocavam com tanta velocidade e força que geraram enormes vales em
+                    formato de V que foram invadidos pelas águas do mar, e contendo, também, os
+                    Alpes Neozelandeses também conhecido como Alpes do Sul que se definem como
+                    uma grande cordilheira que vai de sentido norte-sul, onde mais ao sul é notado
+                    paisagens de difícil acesso. A montanha mais alta dessa cordilheira é chamado de
+                    monte Cook, com sua altitude de 3.724 metros. Na Ilha Sul da Nova Zelândia, tem,
+                    também, a composição por planaltos, que se encontram na porção centro-sul da
+                    ilha, e planícies, onde é encontrada por toda área litorânea se estendendo ao
+                    extremo leste a Planície Canterbury. Na Ilha Norte, é retratado o Planalto Vulcânico
+                    onde apresenta grandes elevações de origem vulcânica, e ainda hoje vulcões
+                    ativos. Pela presença desses vulcões, existe uma cratera onde se localiza o Lago
+                    Taupo.
+
+                </p>
+                <p class="title">Hidrografia:</p>
+                <p class="paragraphy">
+                    A maior parte dos rios são de planalto, sendo assim, há uma dificuldade de
+                    navegação, porém são úteis para a geração de energia elétrica. O maior rio é
+                    chamado de Waikato e possuindo 425 km, é localizado na ilha norte e nasce nas
+                    encostas do Monte Ruapehu e flui através do maior lago do território da Nova
+                    Zelândia, o lago Taupo. O país é cercado pelo oceano Pacífico e o mar da
+                    Tasmânia.
+                </p>
+            </div>
+        </section>
+        <section id="demography">
+            <h1>DEMOGRAFIA</h1>
+            <div class="text">
+                <p class="title">Densidade demográfica:</p>
+                <p class="paragraphy">
+                    A Nova Zelândia possui uma densidade demográfica relativamente baixa, porém
+                    “saudável” de 17 hab/km² por ser um país de território relativamente pequeno.
+                </p>
+                <p class="title">Pirâmide etária:</p>
+                <p class="paragraphy">
+                    O mesmo ocorre na Nova Zelândia. Devido a sua história e seu tipo de colonização,
+                    a Nova Zelândia se tornou um país industrializado onde houve os mesmos efeitos
+                    que ocorreu com sua vizinha Austrália. Industrialização, avanço na medicina e
+                    utilização de métodos contraceptivos
+                </p>
+                <div class="imgs">
+                    <img src="../img/ep-nz.png">
+                </div>
+                <p class="title">Cultura:</p>
+                <p class="paragraphy">
+                    A Nova Zelândia possui grande diversidade étnica, sendo a mistura de povos
+                    nativos como os Maori ( 14,6%), europeus e seus descendentes ( 69%), asiáticos e
+                    habitantes de outras ilhas do Pacífico ( os dois somam o restante da população).
+                    Os Maori possuem como língua nativa o “ Te Reo Maori”. Esse povo possui como
+                    características marcantes a “haka” ( antigas danças de guerra), as “Ta Moko” ( suas
+                    tatuagens tradicionais), o “Powhiri” ( cerimônia de boas vindas aos visitantes,
+                    contendo danças, música e canto), a “Raranga” ( tecelagem tipicamente Maori) e os
+                    “Whakairo” ( entalhes em madeira que contam histórias).
+                    <br>Em geral, a população se divide em 56,3% cristãos, 19,7% sem filiação religiosa e o
+                    restante religiões nativas e outras.
+                </p>
+            </div>
+        </section>
+        <section id="history">
+            <h1>HISTÓRIA</h1>
+            <div class="text">
+                <p class="title">
+                    Independência:
+                </p>
+                <p class="paragraphy"> O país se tornou independente em 26 de setembro de 1907, sem conflitos ou
+                    rebeliões, apenas desligando-se financeiramente da antiga metrópole, o Reino Unido. Apesar de
+                    continuar sendo influente na Nova Zelândia por conta de um Governador Geral, a nação europeia deixou
+                    de interferir nas decisões internas da ilha oceânica. A decisão era de interesse de ambos os países,
+                    e deu ao povo neozelandês seu próprio governo com leis independentes da Coroa Britânica e uma nova
+                    bandeira. </p>
+                <p class="title">
+                    Grandes Guerras:
+                </p>
+                <p class="paragraphy"> A Nova Zelândia mandou mais da metade da população masculina às duas Guerras
+                    Mundiais, junto com as tropas aliadas. O ANZAC (Australian and New Zealand Army Corps) tem até hoje
+                    reconhecimento como extremamente importantes para mudar o destino das guerras e dos países
+                    envolvidos. Anualmente os veteranos das guerras e seus descendentes vão às ruas cedo para honrar os
+                    milhares de mortos nas Guerras, num dia conhecido como ANZAC Day. </p>
+
+            </div>
+        </section>
+        <section id="politics">
+            <h1>POLÍTICA</h1>
+            <div class="text">
+                <p class="paragraphy">
+                    A Nova Zelândia é um país independente que permanece em uma democracia
+                    parlamentar e em uma monarquia constitucional, portanto há um chefe de estado e
+                    um chefe de governo. A monarca Elizabeth II, também rainha do Reino Unido, que
+                    segue o mesmo plano de governo, é a chefe de Estado, e tem a função de figura
+                    pública, representando, principalmente, o nacionalismo. A governadora-geral Patsy
+                    Reddy exerce o cargo de chefe de Governo, e administra todo o país.
+                </p>
+                <p class="paragraphy">
+                    O país também tem um parlamento com 120 membros, sendo eles, sessenta e
+                    cinco eleitos pela população (destes, cinco vagas destinadas a população Maori) e
+                    cinquenta e cinco eleitos pelo partido em mandato.
+                </p>
+                <p class="paragraphy">
+                    A Nova Zelândia investe muito em relações internacionais com diversos países, em
+                    uma relação de cooperação principalmente acadêmica.
+                </p>
+                <p class="paragraphy">
+                    Por exemplo, no caso do Brasil, a Nova Zelândia fornece dezenas de bolsas de
+                    estudos anuais para que as pessoas possam estudar por curtos ou longos períodos
+                    no país. Trata-se de um país solidário, não medindo esforços para ajudar países em
+                    situações de risco.
+                </p>
+                <p class="paragraphy">
+                    Por conta desses fatores, a Nova Zelândia tem fortes relações internacionais com
+                    países do mundo inteiro, em diversas áreas.
+                </p>
+                <p class="paragraphy">
+                    Por conta desses fatores, a Nova Zelândia tem fortes relações internacionais com
+                    países do mundo inteiro, em diversas áreas.
+                </p>
+            </div>
+        </section>
+        <section id="economy">
+            <h1>ECONOMIA</h1>
+            <div class="text">
+                <p class="title">Exportação:</p>
+                <p class="paragraphy">
+                    Os principais produtos exportados pela oceania são óleos combustíveis, máquinas e
+                    aparelhos de terraplanagem, açúcar de cana, café cru em grão, celulose, suco de
+                    laranja, ônibus e outros veículos, pneumáticos e calçados. O gráfico abaixo
+                    demonstra a quantidade (em%) dos produtos exportados pela oceania.
+                </p>
+                <div class="imgs">
+                    <img src="../img/export-nz.png">
+                </div>
+                <p class="title">Importações:</p>
+                <p class="paragraphy">
+                    Os principais produtos importados pela Nova Zelândia são carros, petróleo cru,
+                    petrolíferos refinados, caminhões de entrega e equipamentos de transmissão. O
+                    gráfico abaixo demonstra a quantidade (em bilhões de dólares) que são importados
+                    pela Nova Zelândia anualmente.
+                </p>
+                <div class="imgs">
+                    <img src="../img/import-nz.png">
+                </div>
+                <p class="title">Principais Atividades Economicas:</p>
+                <p class="paragraphy">
+                    Na Nova Zelândia temos um território caracterizado por uma grande presença de
+                    indústrias que antigamente se baseavam na indústria agrária, mas, hoje em dia,
+                    com implementação de novas políticas industriais, possibilitou o avanço da Nova
+                    Zelândia, permitindo-a bater de frente contra outros países deste segmento
+                    industrial. Logo, eles têm um PIB e uma renda per capita invejável.
+                </p>
+                <p class="paragraphy">
+                    Hoje em dia, as principais atividades econômicas da Nova Zelândia são a
+                    agricultura, a pesca, horticultura e silvicultura.
+                </p>
+                <p class="paragraphy">
+                    Serviços e indústrias transformadoras, apesar de não ter muita expressão, são
+                    importantes para o país. Sendo o Turismo o que mais atrai viajantes para o país,
+                    sendo isso, uma forte “indústria” para a Nova Zelândia
+                </p>
+            </div>
+        </section>
+        <br><br><br><br><br>
+    </section>
+    <footer>
+        <div class="imgss">
+            <img src="../img/logo1.svg">
+            <img src="../img/logo2.svg">
+        </div>
+    </footer>
+
+</body>
+
+
+</html>

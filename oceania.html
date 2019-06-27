@@ -1,0 +1,283 @@
+<html>
+
+<head>
+    <title>
+        Oceania
+    </title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+        $("document").ready(function ($) {
+            var country = $('#country');
+            var nav = $('nav')
+            var logo = $('#logo');
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 350) {
+                    country.addClass("invisible");
+                } else {
+                    country.removeClass("invisible");
+                }
+            });
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 500) {
+                    nav.addClass("navigation");
+                    logo.addClass("logonavigation");
+                    logo.removeClass("logonavigation1");
+                } else {
+                    nav.removeClass("navigation");
+                    logo.removeClass("logonavigation");
+                    logo.addClass("logonavigation1");
+                }
+            });
+        });
+    </script>
+</head>
+
+<header>
+    <h1 id="country">OCEANIA</h1>
+    <img src="img/mountain.png" id="mountain">
+    <nav>
+        <a href="index.html"><img src="img/logo.svg" class="logonavigation1" id="logo"></a>
+        <ul>
+            <li><a href="#natural-aspects">ASPECTOS NATURAIS</a></li>
+            <li><a href="#demography">DEMOGRAFIA</a></li>
+            <li><a href="#history">HISTORIA</a></li>
+            <li><a href="#economy">ECONOMIA</a></li>
+        </ul>
+    </nav>
+</header>
+
+<body>
+    <section id="main">
+        <section id="natural-aspects">
+            <h1>ASPECTOS NATURAIS</h1>
+            <div class="text">
+                <p class="title">FAUNA:</p>
+                <p class="paragraphy">
+                    Quando pensamos na fauna da Oceania, sempre vem à cabeça vários animais estranhos e peculiares. É um
+                    continente com uma enorme variedade de espécies, que pouco são encontradas em outras regiões. Sua
+                    distância dos outros continentes os proporcionou criar sua própria e única fauna endêmica, que
+                    fascina todos os cantos do mundo por sua “esquisitice”. Pássaros são extremamente comuns no
+                    continente, por serem um dos poucos animais capazes de ir de uma ilha para outra. Existem mais de
+                    110 pássaros nativos da Oceania. A maior parte dos animais terrenos da austrália são lagartos e
+                    morcegos (mais de cem espécies de morcegos frutíferos.). Dentro das espécies de lagarto estão:
+                    goanna, escíncidos e pogona. existem somente cinco espécies de monotremados (mamíferos que botam
+                    ovos): o ornitorrinco e mais quatro espécies de equidna. Todas essas espécies se localizam apenas em
+                    dois países: Papua Nova Guiné e Austrália. Aproximadamente 70% dos marsupiais (animais que carregam
+                    seus bebês em numa “bolsa”) estão localizados na Oceania. Dentre eles estão: coala, canguru e
+                    wallaby.
+                </p>
+                <p class="title">Fauna marinha:</p>
+                <p class="paragraphy">
+                    A região é composta por três regiões marinhas: Temperate Australasia: por conta de sua água fria e
+                    cheia de nutrientes. Essa região é uma das áreas mais ricas de pássaros marinhos. Podemos citar o
+                    albatroz, petrel e os pinguins-varejistas. Central Indo-Pacific: nesta região, habita uma grande
+                    diversidade de corais tropicais, incluindo dois dos maiores recifes de coral do mundo: a Grande
+                    Barreira de Coral Australiana e as lagoas da Nova Caledónia. E Eastern Indo-Pacific: possui grande
+                    variedade de baleias, tartarugas e peixes. Há presença de recifes de corais tropicais.
+                </p>
+            </div>
+        </section>
+        <section id="demography">
+            <h1>DEMOGRAFIA</h1>
+            <p class="title">
+                IDH:
+            </p>
+            <p class="paragraphy"> O IDH da Austrália e da Nova Zelândia é considerado bem alto, sendo eles 0,939 e
+                0,917 respectivamente, onde a Austrália é a terceira colocada no ranking de melhor IDH do mundo. Por
+                serem países mais desenvolvidos e com boas condições de vida, seu IDH é bem elevado, principalmente em
+                comparação ao resto da Oceania. </p>
+            <p class="paragraphy"> A Polinésia, Micronésia e a Melanésia, por outro lado, possuem um IDH bem parecido e
+                não tão alto. Como essas regiões são formadas por pequenas ilhas cujas principais fontes econômicas são
+                o turismo, que não é capaz de sustentá-las bem, seu desenvolvimento não é tão grande, consequentemente
+                seus IDHs são 0,694, 0,627 e 0,543, respectivamente. </p>
+
+        </section>
+        <section id="history">
+            <h1>HISTÓRIA</h1>
+            <div class="text">
+                <p class="paragraphy">
+                    A ocupação de territórios para fins de exploração e colonização sempre fez parte da
+                    História. Sendo assim, a Oceania foi uma das últimas regiões do mundo a ser
+                    oficialmente "descoberta" por cientistas e exploradores, mesmo que a população
+                    nativa seja a mais antiga do mundo. Isso se deve ao etnocentrismo europeu.
+                </p>
+                <p class="title">Colonização:</p>
+                <p class="paragraphy">
+                    O navegador português Fernão Lopes Magalhães foi o primeiro não-nativo a pisar
+                    em terras da atual Oceania - mais precisamente Ilhas Marianas - em 1521. Ele só
+                    passou por lá para coletar alimentos, mas acabou morrendo no mesmo ano, nas
+                    Filipinas, sem saber que havia descoberto um novo continente. Ele foi patrocinado
+                    pelo reino da Espanha para achar um caminho mais rápido às Índias.
+                    Com o passar do tempo, a região foi sendo explorada por portugueses, espanhóis e
+                    holandeses, mas ninguém o colonizava, até que em 1770, o inglês James Cook
+                    tomou posse da Austrália. Dezoito anos depois os ingleses enviaram mil pessoas -
+                    metade delas criminosos - para abrir uma colônia criminal por lá.
+                </p>
+                <p class="paragraphy">
+                    Já na Nova Zelândia, o primeiro europeu a fazer contato foi o alemão Abel Tasman
+                    em 1642, porém seu contato foi limitado, já que ele foi atacado pelo povo Maori. Ele
+                    foi o primeiro a traçar mapas das ilhas próximas, e seus dados foram extremamente
+                    importantes. Depois, cartógrafos holandeses deram o nome ao local em
+                    homenagem a província de Zeeland.
+                </p>
+                <p class="paragraphy">
+                    Entre os anos de 1810 e 1830 houveram as chamadas “Guerras do Mosquete”; que
+                    foram uma série de conflitos entre as tribos Maori por território. Após receberem
+                    mosquetes, os nativos começaram a brigar entre si. A estimativa é de dezenas de
+                    milhares de mortos.
+                </p>
+                <p class="paragraphy">
+                    Essa nova terra não atraiu a atenção da Europa até tarde do século XVIII, quando o
+                    navegador James Cook explorou mais a fundo o lugar
+                </p>
+                <p class="paragraphy">
+                    Para lidar com os povos nativos eles fizeram o tratado de Waitangi, entre a Coroa
+                    Inglesa e os chefes de tribo Maori (rangatira). Nele se afirmava que a Coroa poderia
+                    vender e adquirir terras assim como estabelecer um reinado, e em troca os Maori
+                    teriam total direito de uso de suas terras e direitos nos quesitos britânicos.
+
+                </p>
+                <p class="paragraphy">
+                    Porém, havia divergências nas duas versões do tratado (inglês e maori), e devido a
+                    diferentes entendimentos do mesmo, resultou no descontentamento dos Maori,
+                    assim como diversas discussões que perduraram até os anos 80.
+                </p>
+                <p class="paragraphy">
+                    O termo “Oceania” só surgiu em 1812, criado pelo geógrafo dinamarquês Conrad
+                    Malte-Brun, para designar o continente que inclui a Austrália e as ilhas adjacentes
+                    no Pacífico Sul. Por ter sido o último continente a ter sido conquistado pelos
+                    europeus, na visão eurocêntrica a Oceania é chamada de “Novíssimo Continente”
+                    ou “Novíssimo Mundo”. A Europa era o “Velho Mundo” e a América era o “Novo
+                    Mundo”.
+                </p>
+                <p class="paragraphy">
+                    Apesar de existirem milhares de ilhas, existem apenas 14 Estados independentes,
+                    além de alguns territórios ou colônias de outros países (como por exemplo a
+                    Polinésia Francesa, que é um protetorado francês onde se encontra o Taiti).
+                </p>
+                <p class="paragraphy">
+                    A Oceania é dividida em três grandes zonas: a Melanésia (que significa “Ilhas dos
+                    Negros”, e estende-se das ilhas a Nordeste da Austrália, da Nova Guiné até as Ilhas
+                    Fiji), Polinésia (“muitas ilhas”, abrange da Nova Zelândia ao Havaí) e Micronésia
+                    (“pequenas ilhas”, formada pelas ilhas ao Norte da Melanésia).
+                </p>
+                <p class="title">
+                    Oceania Pré-colonização (Aborígenes)
+                </p>
+                <p class="paragraphy">
+                    Os aborígenes são o povo que tem a cultura
+                    mais velha do planeta. Acredita-se que
+                    chegaram à Oceania cerca de 50.000 anos
+                    atrás. Quando os europeus chegaram ao
+                    continente oceânico, o número de nativos
+                    vivendo naquele território era próximo a um
+                    milhão, e eles viviam em quinhentos clãs, ou
+                    "nações" diferentes, e falavam cerca de
+                    setecentos idiomas distintos. Normalmente, os aborígenes eram caçadores e
+                    coletores. Cada comunidade tinha uma conexão espiritual diferente com a terra em
+                    que vivia, mas os nativos costumavam viajar muito, para trocar e/ou achar água e
+                    produtos sazonais, além de rituais de coleta.
+                </p>
+                <p class="paragraphy">
+                    Apesar da diferença geográfica e climática entre a área de ocupação dos clãs, todos
+                    os aborígenes compartilhavam a crença no "Sonhador", ou "Tjukurrpa". De acordo
+                    com o mito, espíritos ancestrais forjaram todos os aspectos da vida e ainda
+                    conectam o passado, o presente, as pessoas e a terra. As histórias do "Sonhador"
+                    descreviam jornadas de espíritos antigos, e eram contadas por meio da música,
+                    dança, pintura e narração de história.
+                </p>
+                <p class="paragraphy">
+                    A chegada dos colonizadores às terras aborígenes teve um efeito terrível na
+                    população, já que eles tomaram suas terras, trouxeram doenças que comumente
+                    causavam a morte e causaram uma enorme perturbação no modo de vida e nas
+                    práticas tradicionais dos nativos.
+                </p>
+                <p class="title2">Guerra Negra</p>
+                <p class="paragraphy">
+                    A Guerra Negra aconteceu entre 1804 e 1830, e esse nome é dado aos conflitos
+                    que aconteceram entre aborígenes, soldados europeus e colonizadores na ilha
+                    australiana da Tasmânia (que na época era chamada de Van Diemen's Land). As
+                    hostilidades resultaram na exterminação virtual da população aborígene original da
+                    ilha.
+                </p>
+                <p class="paragraphy">
+                    O conflito armado de fato começou em maio de 1804, quando uma unidade armada
+                    europeia abriu fogo contra um grupo de caçadores aborígenes.
+                </p>
+                <p class="paragraphy">
+                    O desagrado dos aborígenes em relação aos colonizadores brancos cresceu
+                    quando eles começaram a ocupar áreas da ilha para a criação de ovelhas, que
+                    eram usadas para caça, e quando a comida se tornou escassa, eles começaram a
+                    caçar cangurus, esgotando muitos elementos básicos da vida dos aborígenes. Além
+                    disso, os nativos continuaram a serem oprimidos, e sequestros, estupros e
+                    assassinatos eram muito comuns.
+                </p>
+                <p class="paragraphy">
+                    Incapazes de lutar contra a força e o terror europeus, aos aborígenes não restou
+                    opção senão atacar pessoas individualmente e grupos pequenos. Nos anos de
+                    1820, essa campanha se tornou intensa.
+                </p>
+                <p class="paragraphy">
+                    No outono de 1830, o vice-governador, George Arthur, decidiu segregar os
+                    aborígenes na região sudeste da península da ilha. Milhares de colonizadores
+                    tentaram tirar os aborígenes da mata. A campanha falhou, mas serviu como
+                    demonstração da força europeia.
+                </p>
+                <p class="paragraphy">
+                    Entre os anos de 1831 e 1835, um agente de Arthur, George A. Robinson,
+                    conseguiu convencer os nativos restantes (cerca de 200) a se reestabelecer na ilha
+                    de Flinders. Lá, o número de nativos diminuiu ainda mais, mesmo que os
+                    aborígenes tivessem sido capazes de sobreviver por meio de casamentos inter
+                    raciais com europeus.
+                </p>
+                <p class="title">
+                    Exclusão sociais das minorias étnicas na Austrália e Nova Zelândia
+                </p>
+                <p class="paragraphy"> Mesmo com o desenvolvimento socioeconômico elevadíssimo da região australiana e
+                    neozelandesa, uma grande parcela da população permanece marginalizada. Essa parcela é formada pelos
+                    aborígenes, na Austrália, e pelos maoris, na Nova Zelândia. Isso ocorre devido ao processo de
+                    ocupação da Oceania por colonizadores europeus que configurou-se no genocídio dos nativos. Um grande
+                    reflexo disso é o fato de que, atualmente, os aborígenes representam apenas 1,5% da população
+                    australiana e os maoris; 10% da população neozelandesa. </p>
+                <p class="paragraphy"> Um processo histórico-social como tal deixa profundas marcas na sociedade como
+                    discriminação e redução da qualidade de vida desses povos. </p>
+            </div>
+        </section>
+        <section id="economy">
+            <h1>ECONOMIA</h1>
+            <div class="text">
+                <p class="title">Exportação:</p>
+                <p class="paragraphy">
+                    Os principais produtos exportados pela oceania são óleos combustíveis, máquinas e aparelhos de
+                    terraplanagem, açúcar de cana, café cru em grão, celulose, suco de laranja, ônibus e outros
+                    veículos, pneumáticos e calçados. O gráfico abaixo demonstra a quantidade (em%) dos produtos
+                    exportados pela oceania.
+                </p>
+                <div class="imgs">
+                    <img src="img/export-oc.png">
+                </div>
+                <p class="title">Importação:</p>
+                <p class="paragraphy">
+                    Os principais produtos importados são hulhas, mesmo em pó, mas não aglomeradas e demais produtos
+                    manufaturados. O gráfico abaixo demonstra a quantidade (em %) dos principais produtos importados
+                    pela oceania.
+                </p>
+                <div class="imgs">
+                    <img src="img/export-oc.png">
+                </div>
+            </div>
+        </section>
+        <br><br><br><br><br>
+    </section>
+    <footer>
+        <div class="imgss">
+            <img src="../img/logo1.svg">
+            <img src="../img/logo2.svg">
+        </div>
+    </footer>
+
+</body>
+
+
+</html>

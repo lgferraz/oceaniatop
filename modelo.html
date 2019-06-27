@@ -1,0 +1,147 @@
+<html>
+
+<head>
+    <title>
+        Oceania
+    </title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+        $("document").ready(function ($) {
+            var country = $('#country');
+            var nav = $('nav')
+            var logo = $('#logo');
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 350) {
+                    country.addClass("invisible");
+                } else {
+                    country.removeClass("invisible");
+                }
+            });
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 500) {
+                    nav.addClass("navigation");
+                    logo.addClass("logonavigation");
+                    logo.removeClass("logonavigation1");
+                } else {
+                    nav.removeClass("navigation");
+                    logo.removeClass("logonavigation");
+                    logo.addClass("logonavigation1");
+                }
+            });
+        });
+    </script>
+</head>
+
+<header>
+    <h1 id="country">OCEANIA</h1>
+    <img src="img/mountain.png" id="mountain">
+    <nav>
+        <img src="img/logo.svg" class="logonavigation1" id="logo">
+        <ul>
+            <li><a href="#natural-aspects">ASPECTOS NATURAIS</a></li>
+            <li><a href="#demography">DEMOGRAFIA</a></li>
+            <li><a href="#history">HISTORIA</a></li>
+            <li><a href="#politics">POLITICA</a></li>
+            <li><a href="#economy">ECONOMIA</a></li>
+        </ul>
+    </nav>
+</header>
+
+<body>
+    <section id="main">
+        <section id="natural-aspects">
+            <h1>Titulo</h1>
+            <div class="text">
+                <p class="title">Subtitulo</p>
+                <p class="paragraphy">
+                    Texto
+                </p>
+                <p class="title">Subtitulo1</p>
+                <p class="paragraphy">
+                    Texto1
+                </p>
+                <p class="title">Subtitulo2</p>
+                <p class="paragraphy">
+                    Texto2
+                </p>
+            </div>
+        </section>
+        <section id="demography">
+            <h1>Titulo2</h1>
+            <div class="text">
+                <p class="title">Subtitulo</p>
+                <p class="paragraphy">
+                    Texto
+                </p>
+                <p class="title">Subtitulo1</p>
+                <p class="paragraphy">
+                    Texto1
+                </p>
+                <p class="title">Subtitulo2</p>
+                <p class="paragraphy">
+                    Texto2
+                </p>
+            </div>
+        </section>
+        <section id="history">
+            <h1>Titulo2</h1>
+            <div class="text">
+                <p class="title">Subtitulo</p>
+                <p class="paragraphy">
+                    Texto
+                </p>
+                <p class="title">Subtitulo1</p>
+                <p class="paragraphy">
+                    Texto1
+                </p>
+                <p class="title">Subtitulo2</p>
+                <p class="paragraphy">
+                    Texto2
+                </p>
+            </div>
+        </section>
+        <section id="politics">
+            <h1>Titulo2</h1>
+            <div class="text">
+                <p class="title">Subtitulo</p>
+                <p class="paragraphy">
+                    Texto
+                </p>
+                <p class="title">Subtitulo1</p>
+                <p class="paragraphy">
+                    Texto1
+                </p>
+                <p class="title">Subtitulo2</p>
+                <p class="paragraphy">
+                    Texto2
+                </p>
+            </div>
+        </section>
+        <section id="economy">
+            <h1>Titulo2</h1>
+            <div class="text">
+                <p class="title">Subtitulo</p>
+                <p class="paragraphy">
+                    Texto
+                </p>
+                <p class="title">Subtitulo1</p>
+                <p class="paragraphy">
+                    Texto1
+                </p>
+                <p class="title">Subtitulo2</p>
+                <p class="paragraphy">
+                    Texto2
+                </p>
+            </div>
+        </section>
+        <br><br><br><br><br>
+    </section>
+    <footer>
+        <p><i>Trabalho de Geografia TOP D+</i></p>
+    </footer>
+
+</body>
+
+
+</html>
